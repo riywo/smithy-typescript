@@ -26,8 +26,8 @@
   "author": "AWS Smithy Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/protocol-http": "workspace:^",
-    "@aws-sdk/types": "^3.267.0",
+    "@smithy-io/protocol-http": "workspace:^",
+    "@smithy-io/types": "workspace:^",
     "tslib": "^1.8.0"
   },
   "devDependencies": {
