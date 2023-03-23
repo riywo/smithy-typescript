@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/util-uri-escape",
+  "name": "@smithy-io/util-uri-escape",
   "version": "3.295.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -35,10 +35,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/util-uri-escape",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/util-uri-escape",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/util-uri-escape"
   },
   "devDependencies": {

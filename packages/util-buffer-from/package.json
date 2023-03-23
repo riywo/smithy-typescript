@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/util-buffer-from",
+  "name": "@smithy-io/util-buffer-from",
   "version": "3.295.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -17,7 +17,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/is-array-buffer": "*",
+    "@smithy-io/is-array-buffer": "workspace:^",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
@@ -45,10 +45,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/util-buffer-from",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/util-buffer-from",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/util-buffer-from"
   },
   "typedoc": {

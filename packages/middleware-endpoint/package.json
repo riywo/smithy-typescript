@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/middleware-endpoint",
+  "name": "@smithy-io/middleware-endpoint",
   "version": "3.296.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,13 +20,13 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/middleware-serde": "*",
-    "@aws-sdk/protocol-http": "*",
-    "@aws-sdk/signature-v4": "*",
-    "@aws-sdk/types": "*",
-    "@aws-sdk/url-parser": "*",
-    "@aws-sdk/util-config-provider": "*",
-    "@aws-sdk/util-middleware": "*",
+    "@smithy-io/middleware-serde": "workspace:^",
+    "@smithy-io/protocol-http": "workspace:^",
+    "@smithy-io/signature-v4": "workspace:^",
+    "@smithy-io/types": "workspace:^",
+    "@smithy-io/url-parser": "workspace:^",
+    "@smithy-io/util-config-provider": "workspace:^",
+    "@smithy-io/util-middleware": "workspace:^",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
@@ -50,10 +50,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/middleware-endpoint",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/middleware-endpoint",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/middleware-endpoint"
   },
   "typedoc": {

@@ -1,4 +1,4 @@
-import { Provider } from "@aws-sdk/types";
+import { Provider } from "@smithy-io/types";
 
 /**
  * @returns a provider function for the input value if it isn't already one.

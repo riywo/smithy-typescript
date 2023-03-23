@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/util-body-length-browser",
+  "name": "@smithy-io/util-body-length-browser",
   "description": "Determines the length of a request body in browsers",
   "version": "3.295.0",
   "scripts": {
@@ -33,10 +33,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/util-body-length-browser",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/util-body-length-browser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/util-body-length-browser"
   },
   "devDependencies": {

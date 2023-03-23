@@ -1,4 +1,4 @@
-import { Logger } from "@aws-sdk/types";
+import { Logger } from "@smithy-io/types";
 
 export const DEFAULT_TIMEOUT = 1000;
 

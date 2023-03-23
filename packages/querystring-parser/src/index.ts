@@ -1,4 +1,4 @@
-import { QueryParameterBag } from "@aws-sdk/types";
+import { QueryParameterBag } from "@smithy-io/types";
 
 export function parseQueryString(querystring: string): QueryParameterBag {
   const query: QueryParameterBag = {};

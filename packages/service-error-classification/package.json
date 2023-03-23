@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/service-error-classification",
+  "name": "@smithy-io/service-error-classification",
   "version": "3.296.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,7 +20,7 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@aws-sdk/types": "*",
+    "@smithy-io/types": "workspace:^",
     "@tsconfig/recommended": "1.0.1",
     "concurrently": "7.0.0",
     "downlevel-dts": "0.10.1",
@@ -41,10 +41,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/service-error-classification",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/service-error-classification",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/service-error-classification"
   },
   "typedoc": {

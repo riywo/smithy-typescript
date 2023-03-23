@@ -1,5 +1,5 @@
-import { blobReader } from "@aws-sdk/chunked-blob-reader";
-import { ChecksumConstructor, HashConstructor, StreamHasher } from "@aws-sdk/types";
+import { blobReader } from "@smithy-io/chunked-blob-reader";
+import { ChecksumConstructor, HashConstructor, StreamHasher } from "@smithy-io/types";
 
 export const blobHasher: StreamHasher<Blob> = async function blobHasher(
   hashCtor: ChecksumConstructor | HashConstructor,

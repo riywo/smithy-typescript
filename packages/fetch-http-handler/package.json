@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/fetch-http-handler",
+  "name": "@smithy-io/fetch-http-handler",
   "version": "3.296.0",
   "description": "Provides a way to make requests",
   "scripts": {
@@ -21,14 +21,14 @@
   "module": "./dist-es/index.js",
   "types": "./dist-types/index.d.ts",
   "dependencies": {
-    "@aws-sdk/protocol-http": "*",
-    "@aws-sdk/querystring-builder": "*",
-    "@aws-sdk/types": "*",
-    "@aws-sdk/util-base64": "*",
+    "@smithy-io/protocol-http": "workspace:^",
+    "@smithy-io/querystring-builder": "workspace:^",
+    "@smithy-io/types": "workspace:^",
+    "@smithy-io/util-base64": "workspace:^",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
-    "@aws-sdk/abort-controller": "*",
+    "@smithy-io/abort-controller": "workspace:^",
     "@tsconfig/recommended": "1.0.1",
     "concurrently": "7.0.0",
     "downlevel-dts": "0.10.1",
@@ -46,10 +46,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/fetch-http-handler",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/fetch-http-handler",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/fetch-http-handler"
   },
   "typedoc": {

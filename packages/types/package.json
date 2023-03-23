@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/types",
+  "name": "@smithy-io/types",
   "version": "3.296.0",
   "main": "./dist-cjs/index.js",
   "module": "./dist-es/index.js",
@@ -33,10 +33,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/types",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/types",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/types"
   },
   "dependencies": {

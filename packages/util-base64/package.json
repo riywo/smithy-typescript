@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/util-base64",
+  "name": "@smithy-io/util-base64",
   "version": "3.295.0",
   "description": "A Base64 <-> UInt8Array converter",
   "main": "./dist-cjs/index.js",
@@ -20,7 +20,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/util-buffer-from": "*",
+    "@smithy-io/util-buffer-from": "workspace:^",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
@@ -54,10 +54,10 @@
     "./dist-es/fromBase64": "./dist-es/fromBase64.browser",
     "./dist-es/toBase64": "./dist-es/toBase64.browser"
   },
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/util-base64",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/util-base64",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/util-base64"
   },
   "typedoc": {

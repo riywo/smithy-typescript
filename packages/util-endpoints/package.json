@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/util-endpoints",
+  "name": "@smithy-io/util-endpoints",
   "version": "3.296.0",
   "description": "Utilities to help with endpoint resolution",
   "main": "./dist-cjs/index.js",
@@ -21,7 +21,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/types": "*",
+    "@smithy-io/types": "workspace:^",
     "tslib": "^2.5.0"
   },
   "engines": {
@@ -37,10 +37,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/util-endpoints",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/util-endpoints",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/util-endpoints"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-import { LoadedConfigSelectors } from "@aws-sdk/node-config-provider";
+import { LoadedConfigSelectors } from "@smithy-io/node-config-provider";
 
 export const ENV_ENDPOINT_NAME = "AWS_EC2_METADATA_SERVICE_ENDPOINT";
 export const CONFIG_ENDPOINT_NAME = "ec2_metadata_service_endpoint";

@@ -1,5 +1,5 @@
-import { parseQueryString } from "@aws-sdk/querystring-parser";
-import { Endpoint, QueryParameterBag, UrlParser } from "@aws-sdk/types";
+import { parseQueryString } from "@smithy-io/querystring-parser";
+import { Endpoint, QueryParameterBag, UrlParser } from "@smithy-io/types";
 
 export const parseUrl: UrlParser = (url: string | URL): Endpoint => {
   if (typeof url === "string") {

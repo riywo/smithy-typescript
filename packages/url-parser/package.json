@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/url-parser",
+  "name": "@smithy-io/url-parser",
   "version": "3.296.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,8 +20,8 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/querystring-parser": "*",
-    "@aws-sdk/types": "*",
+    "@smithy-io/querystring-parser": "workspace:^",
+    "@smithy-io/types": "workspace:^",
     "tslib": "^2.5.0"
   },
   "typesVersions": {
@@ -34,10 +34,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/url-parser",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/url-parser",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/url-parser"
   },
   "devDependencies": {

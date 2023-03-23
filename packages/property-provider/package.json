@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/property-provider",
+  "name": "@smithy-io/property-provider",
   "version": "3.296.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,7 +20,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/types": "*",
+    "@smithy-io/types": "workspace:^",
     "tslib": "^2.5.0"
   },
   "engines": {
@@ -36,10 +36,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/property-provider",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/property-provider",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/property-provider"
   },
   "devDependencies": {

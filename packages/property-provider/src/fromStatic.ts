@@ -1,4 +1,4 @@
-import { Provider } from "@aws-sdk/types";
+import { Provider } from "@smithy-io/types";
 
 export const fromStatic =
   <T>(staticValue: T): Provider<T> =>

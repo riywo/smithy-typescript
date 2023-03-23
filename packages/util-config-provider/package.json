@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/util-config-provider",
+  "name": "@smithy-io/util-config-provider",
   "version": "3.295.0",
   "description": "Utilities package for configuration providers",
   "scripts": {
@@ -46,10 +46,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/util-config-provider",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/util-config-provider",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/util-config-provider"
   },
   "typedoc": {

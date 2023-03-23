@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/is-array-buffer",
+  "name": "@smithy-io/is-array-buffer",
   "version": "3.295.0",
   "description": "Provides a function for detecting if an argument is an ArrayBuffer",
   "scripts": {
@@ -36,10 +36,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/is-array-buffer",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/is-array-buffer",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/is-array-buffer"
   },
   "devDependencies": {

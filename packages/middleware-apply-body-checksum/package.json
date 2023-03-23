@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/middleware-apply-body-checksum",
+  "name": "@smithy-io/middleware-apply-body-checksum",
   "version": "3.296.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,9 +20,9 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/is-array-buffer": "*",
-    "@aws-sdk/protocol-http": "*",
-    "@aws-sdk/types": "*",
+    "@smithy-io/is-array-buffer": "workspace:^",
+    "@smithy-io/protocol-http": "workspace:^",
+    "@smithy-io/types": "workspace:^",
     "tslib": "^2.5.0"
   },
   "engines": {
@@ -38,10 +38,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/middleware-apply-body-checksum",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/middleware-apply-body-checksum",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/middleware-apply-body-checksum"
   },
   "devDependencies": {

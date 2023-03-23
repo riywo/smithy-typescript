@@ -1,4 +1,4 @@
-import { LoadedConfigSelectors, LocalConfigOptions } from "@aws-sdk/node-config-provider";
+import { LoadedConfigSelectors, LocalConfigOptions } from "@smithy-io/node-config-provider";
 
 export const REGION_ENV_NAME = "AWS_REGION";
 export const REGION_INI_NAME = "region";

@@ -1,8 +1,8 @@
 {
-  "name": "@aws-sdk/shared-ini-file-loader",
+  "name": "@smithy-io/shared-ini-file-loader",
   "version": "3.296.0",
   "dependencies": {
-    "@aws-sdk/types": "*",
+    "@smithy-io/types": "workspace:^",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
@@ -45,10 +45,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/shared-ini-file-loader",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/shared-ini-file-loader",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/shared-ini-file-loader"
   },
   "typedoc": {

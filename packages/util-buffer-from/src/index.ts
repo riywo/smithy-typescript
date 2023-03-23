@@ -1,4 +1,4 @@
-import { isArrayBuffer } from "@aws-sdk/is-array-buffer";
+import { isArrayBuffer } from "@smithy-io/is-array-buffer";
 import { Buffer } from "buffer";
 
 export const fromArrayBuffer = (input: ArrayBuffer, offset = 0, length: number = input.byteLength - offset): Buffer => {

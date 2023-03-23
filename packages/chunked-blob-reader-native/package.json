@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/chunked-blob-reader-native",
+  "name": "@smithy-io/chunked-blob-reader-native",
   "version": "3.295.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,7 +20,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/util-base64": "*",
+    "@smithy-io/util-base64": "workspace:^",
     "tslib": "^2.5.0"
   },
   "typesVersions": {
@@ -33,10 +33,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/chunked-blob-reader-native",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/chunked-blob-reader-native",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/chunked-blob-reader-native"
   },
   "devDependencies": {

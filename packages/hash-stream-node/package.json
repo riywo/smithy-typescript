@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/hash-stream-node",
+  "name": "@smithy-io/hash-stream-node",
   "version": "3.296.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,13 +20,13 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@aws-sdk/types": "*",
-    "@aws-sdk/util-utf8": "*",
+    "@smithy-io/types": "workspace:^",
+    "@smithy-io/util-utf8": "workspace:^",
     "tslib": "^2.5.0"
   },
   "devDependencies": {
     "@aws-crypto/sha256-js": "3.0.0",
-    "@aws-sdk/util-hex-encoding": "*",
+    "@smithy-io/util-hex-encoding": "workspace:^",
     "@tsconfig/recommended": "1.0.1",
     "@types/node": "^14.14.31",
     "concurrently": "7.0.0",
@@ -48,10 +48,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/hash-stream-node",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/hash-stream-node",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/hash-stream-node"
   },
   "typedoc": {

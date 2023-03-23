@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/service-client-documentation-generator",
+  "name": "@smithy-io/service-client-documentation-generator",
   "version": "3.295.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -46,10 +46,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/client-documentation-generator",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/client-documentation-generator",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/client-documentation-generator"
   }
 }

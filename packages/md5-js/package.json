@@ -1,5 +1,5 @@
 {
-  "name": "@aws-sdk/md5-js",
+  "name": "@smithy-io/md5-js",
   "version": "3.296.0",
   "scripts": {
     "build": "concurrently 'yarn:build:cjs' 'yarn:build:es' 'yarn:build:types'",
@@ -20,8 +20,8 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@aws-sdk/util-base64": "*",
-    "@aws-sdk/util-hex-encoding": "*",
+    "@smithy-io/util-base64": "workspace:^",
+    "@smithy-io/util-hex-encoding": "workspace:^",
     "@tsconfig/recommended": "1.0.1",
     "@types/node": "^14.14.31",
     "concurrently": "7.0.0",
@@ -32,8 +32,8 @@
     "typescript": "~4.9.5"
   },
   "dependencies": {
-    "@aws-sdk/types": "*",
-    "@aws-sdk/util-utf8": "*",
+    "@smithy-io/types": "workspace:^",
+    "@smithy-io/util-utf8": "workspace:^",
     "tslib": "^2.5.0"
   },
   "typesVersions": {
@@ -46,10 +46,10 @@
   "files": [
     "dist-*"
   ],
-  "homepage": "https://github.com/aws/aws-sdk-js-v3/tree/main/packages/md5-js",
+  "homepage": "https://github.com/awslabs/smithy-typescript/tree/main/packages/md5-js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aws/aws-sdk-js-v3.git",
+    "url": "https://github.com/awslabs/smithy-typescript.git",
     "directory": "packages/md5-js"
   },
   "typedoc": {
